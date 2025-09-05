@@ -1,0 +1,243 @@
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(-50deg, #FECFEF, #FFD6A5, #FFFACD, #CFFFE5, #A0E7E5, #D9B3FF);
+    background-size: 600% 600%;
+    animation: rainbowBG 5s ease infinite;
+}
+@keyframes rainbowBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+header{
+    text-align: center;
+    font-weight:bold ;
+    font-size: 200%;
+    font-family:'Courier New', Courier, monospace;
+    color:black;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+nav ul{
+    color:black;
+    list-style: none;
+    display: flex;
+    padding: 4%;
+    font-family: cursive;
+}
+nav ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    margin-right: 580px;
+}
+nav ul li a:hover{
+    color:red;
+    text-decoration: underline;
+    font-family: fantasy;
+}
+.folk img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid blueviolet;
+    object-fit: cover;  /*จัดให้รูปอยู่ในวงกลมพอดี*/
+    display:block;
+    margin: 0 auto;
+}
+section{
+    text-align: center;
+    font-family:cursive;
+    padding: 10px;
+    font-size: larger;
+    font-style: italic;
+}
+span{
+    font-weight: 800;
+    color: navy;
+    font-style: normal;
+}
+footer {
+    width:100%;
+    background-color:black;
+    text-decoration: dashed;
+    font-style: oblique;
+    padding:10px;
+    margin:0px;
+    text-align: center;
+}
+.Contact{
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    font-style: italic;
+    font-size: xx-large;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+footer img{
+    width: 50px;
+    margin :0px;
+    padding:0 20px;
+    margin-top: 10px;
+}
+.one a{
+    color :white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: x-large;
+}
+.two a{
+    color :white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: x-large;
+}
+.three a{
+    color :white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: x-large;
+}
+.one :hover{
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+}
+.two :hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(249, 32, 238);
+}
+.three :hover{
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+}
+@media (max-width :768px){
+    body{
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(-50deg, #FECFEF, #FFD6A5, #FFFACD, #CFFFE5, #A0E7E5, #D9B3FF);
+    background-size: 400% 400%;
+    animation: rainbowBG 5s ease infinite;
+}
+@keyframes rainbowBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+header{
+    text-align: center;
+    font-weight:bold ;
+    font-size: 200%;
+    font-family:'Courier New', Courier, monospace;
+    color:black;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+nav ul{
+    color:black;
+    list-style: none;
+    display: flex;
+    padding: 4%;
+    font-family: cursive;
+}
+nav ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    margin-right: 580px;
+}
+nav ul li a:hover{
+    color:red;
+    text-decoration: underline;
+    font-family: fantasy;
+}
+.folk img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid blueviolet;
+    object-fit: cover;  /*จัดให้รูปอยู่ในวงกลมพอดี*/
+    display:block;
+    margin: 0 auto;
+}
+section{
+    text-align: center;
+    font-family:cursive;
+    padding: 10px;
+    font-size: larger;
+    font-style: italic;
+}
+span{
+    font-weight: 800;
+    color: navy;
+    font-style: normal;
+}
+footer {
+    width:100%;
+    background-color:black;
+    text-decoration: dashed;
+    font-style: oblique;
+    padding:10px;
+    margin:0px;
+    text-align: center;
+}
+.Contact{
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    font-style: italic;
+    font-size: xx-large;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+footer img{
+    width: 50px;
+    margin :0px;
+    padding:0 20px;
+    margin-top: 10px;
+}
+.one a{
+    color :white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: x-large;
+}
+.two a{
+    color :white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: x-large;
+}
+.three a{
+    color :white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: x-large;
+}
+.one :hover{
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+}
+.two :hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(249, 32, 238);
+}
+.three :hover{
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+}
+
+}
