@@ -25,6 +25,8 @@ nav ul{
     color:black;
     list-style: none;
     display: flex;
+    gap:70px;
+    justify-content: center;
     padding: 4%;
     font-family: cursive;
 }
@@ -33,11 +35,9 @@ nav ul li a{
     text-decoration: none;
     color: black;
     display: flex;
-    margin-right: 580px;
 }
 nav ul li a:hover{
     color:red;
-    text-decoration: underline;
     font-family: fantasy;
 }
 .folk img{
@@ -132,11 +132,11 @@ footer img{
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
-
 header{
     text-align: center;
+    margin-bottom: 15px;
     font-weight:bold ;
-    font-size: 200%;
+    font-size: 150%;
     font-family:'Courier New', Courier, monospace;
     color:black;
     text-transform: uppercase;
@@ -144,31 +144,32 @@ header{
 }
 nav ul{
     color:black;
-    list-style: none;
-    display: flex;
-    padding: 4%;
+    display: contents;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
     font-family: cursive;
 }
 nav ul li a{
     text-align: center;
+    display: contents;
     text-decoration: none;
     color: black;
-    display: flex;
-    margin-right: 580px;
+    
 }
 nav ul li a:hover{
     color:red;
-    text-decoration: underline;
     font-family: fantasy;
 }
 .folk img{
+    margin-top: 15px;
     width: 300px;
     height: 300px;
     border-radius: 50%;
     border: 10px solid blueviolet;
     object-fit: cover;  /*จัดให้รูปอยู่ในวงกลมพอดี*/
     display:block;
-    margin: 0 auto;
+    justify-content: center;
 }
 section{
     text-align: center;
