@@ -11,7 +11,6 @@ body{
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
-
 header{
     text-align: center;
     font-weight:bold ;
@@ -20,6 +19,7 @@ header{
     color:black;
     text-transform: uppercase;
     text-decoration: underline;
+    margin-top: 30px;
 }
 nav ul{
     color:black;
@@ -51,7 +51,7 @@ nav ul li a:hover{
 }
 section{
     text-align: center;
-    font-family:cursive;
+    font-family:Georgia, Times;
     padding: 10px;
     font-size: larger;
     font-style: italic;
@@ -119,24 +119,12 @@ footer img{
     text-decoration-color: whitesmoke;
 }
 @media (max-width :768px){
-    body{
-    height: 100vh;
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(-50deg, #FECFEF, #FFD6A5, #FFFACD, #CFFFE5, #A0E7E5, #D9B3FF);
-    background-size: 400% 400%;
-    animation: rainbowBG 5s ease infinite;
-}
-@keyframes rainbowBG {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
 header{
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    margin-top: 30px;
     font-weight:bold ;
-    font-size: 150%;
+    font-size: 30px;
     font-family:'Courier New', Courier, monospace;
     color:black;
     text-transform: uppercase;
@@ -154,91 +142,13 @@ nav ul li a{
     text-align: center;
     display: contents;
     text-decoration: none;
-    color: black;
-    
+    color: black;  
 }
 nav ul li a:hover{
     color:red;
     font-family: fantasy;
 }
-.folk img{
-    margin-top: 15px;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    border: 10px solid blueviolet;
-    object-fit: cover;  /*จัดให้รูปอยู่ในวงกลมพอดี*/
-    display:block;
-    justify-content: center;
+footer{
+        padding-bottom: env(safe-area-inset-bottom);
 }
-section{
-    text-align: center;
-    font-family:cursive;
-    padding: 10px;
-    font-size: larger;
-    font-style: italic;
-}
-span{
-    font-weight: 800;
-    color: navy;
-    font-style: normal;
-}
-footer {
-    width:100%;
-    background-color:black;
-    text-decoration: dashed;
-    font-style: oblique;
-    padding:10px;
-    margin:0px;
-    text-align: center;
-}
-.Contact{
-    text-align: center;
-    font-family: monospace;
-    font-weight: bold;
-    font-style: italic;
-    font-size: xx-large;
-    color: aliceblue;
-    margin-bottom: 10px;
-}
-footer img{
-    width: 50px;
-    margin :0px;
-    padding:0 20px;
-    margin-top: 10px;
-}
-.one a{
-    color :white;
-    text-decoration: none;
-    font-weight: bolder;
-    font-family: cursive;
-    font-size: x-large;
-}
-.two a{
-    color :white;
-    text-decoration: none;
-    font-weight: bolder;
-    font-family: cursive;
-    font-size: x-large;
-}
-.three a{
-    color :white;
-    text-decoration: none;
-    font-weight: bolder;
-    font-family: cursive;
-    font-size: x-large;
-}
-.one :hover{
-    text-decoration: underline;
-    text-decoration-color: greenyellow;
-}
-.two :hover{
-    text-decoration: underline;
-    text-decoration-color: rgb(249, 32, 238);
-}
-.three :hover{
-    text-decoration: underline;
-    text-decoration-color: whitesmoke;
-}
-
 }
