@@ -31,17 +31,19 @@ nav ul{
     gap:70px;
     justify-content: center;
     padding: 4%;
-    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
 }
 nav ul li a{
     text-align: center;
     text-decoration: none;
     color: black;
     display: flex;
+    font-size:15px;
 }
 nav ul li a:hover{
     color:white;
     font-family: fantasy;
+    font-size:15px;
 }
 section h1{
     color:black;
@@ -109,6 +111,10 @@ footer img{
     text-decoration-color: whitesmoke;
 }
 @media (max-width :768px){
+    body{
+        height: 100vh;
+        margin:0;
+    }
 header{
     header{
     text-align: center;
@@ -138,13 +144,13 @@ nav ul{
     text-align: center;
     flex-direction: row;
     justify-content: center;
-    font-family: cursive;
 }
 nav ul li a{
     text-align: center;
     display: contents;
     text-decoration: none;
     color: black;
+    font-family: 'Courier New', Courier, monospace;
     
 }
 nav ul li a:hover{
