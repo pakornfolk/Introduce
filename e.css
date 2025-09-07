@@ -22,17 +22,19 @@ nav ul{
     gap:70px;
     justify-content: center;
     padding: 4%;
-    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
 }
 nav ul li a{
     text-align: center;
     text-decoration: none;
     color:whitesmoke;
     display: flex;
+    font-size:15px;
 }
 nav ul li a:hover{
     color:red;
     font-family: fantasy;
+    font-size:15px;
 }
 section h1{
     color:antiquewhite;
@@ -101,6 +103,10 @@ footer img{
     text-decoration-color: black;
 }
 @media (max-width: 768px){
+    body{
+        height: 100vh;
+        margin:0;
+    }
     header{
     text-align: center;
     margin-bottom: 20px;
@@ -119,7 +125,6 @@ footer img{
     text-align: center;
     flex-direction: row;
     justify-content: center;
-    font-family: cursive;
     }
     nav ul li a{
     text-align: center;
@@ -127,6 +132,7 @@ footer img{
     text-decoration: none;
     color: white;
     margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
     
     }
     nav ul li a:hover{
