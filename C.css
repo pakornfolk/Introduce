@@ -28,17 +28,19 @@ nav ul{
     gap:70px;
     justify-content: center;
     padding: 4%;
-    font-family: cursive;
+    font-family:'Courier New', Courier, monospace;
 }
 nav ul li a{
     text-align: center;
     text-decoration: none;
     color: black;
     display: flex;
+    font-family:'Courier New', Courier, monospace;
+    font-size:15px;
 }
 nav ul li a:hover{
     color:red;
-    font-family: fantasy;
+    font-family:fantasy;
 }
 .folk img{
     width: 300px;
@@ -51,10 +53,9 @@ nav ul li a:hover{
 }
 section{
     text-align: center;
-    font-family:Georgia, Times;
-    padding: 10px;
+    font-family:cursive;
     font-size: larger;
-    font-style: italic;
+    font-size: 25px;
 }
 span{
     font-weight: 800;
@@ -119,6 +120,10 @@ footer img{
     text-decoration-color: whitesmoke;
 }
 @media (max-width :768px){
+    body{
+        height: 100vh;
+        margin:0;
+    }
 header{
     text-align: center;
     margin-bottom: 20px;
@@ -136,7 +141,6 @@ nav ul{
     text-align: center;
     flex-direction: row;
     justify-content: center;
-    font-family: cursive;
 }
 nav ul li a{
     text-align: center;
@@ -147,6 +151,13 @@ nav ul li a{
 nav ul li a:hover{
     color:red;
     font-family: fantasy;
+}
+section{
+    text-align: center;
+    font-family:Verdana;
+    padding: 10px;
+    font-size: larger;
+    font-size:23px;
 }
 footer{
         padding-bottom: env(safe-area-inset-bottom);
